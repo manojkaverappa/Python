@@ -9,3 +9,4 @@ for i in subdir:
             newname = end_dir[i][0:50]
             os.rename(os.path.join(path, end_dir[
                       i]), os.path.join(path, newname))
+            hi
